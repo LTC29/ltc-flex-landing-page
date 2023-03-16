@@ -1,5 +1,5 @@
 * {
-    font-family: Roboto;
+    font-family: 'Roboto';
     margin: 0;
 }
 
@@ -15,13 +15,11 @@
     font-size: 24px;
     color: #f9faf8;
     display: flex;
-
 }
 
 .links {
     display: flex;
     gap: 32px;
-
 }
 
 li {
@@ -41,7 +39,7 @@ a:link {
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 52px;
+    padding: 74px;
     margin: 0px;
 }
 
@@ -49,8 +47,9 @@ a:link {
     display: flex;
     flex-direction: column;
     font-size: 42px;
-    font-weight: extra-bold;
-    max-width: 800px;
+    max-width: 600px;
+    font-style: normal;
+    font-weight: 500;
 }
 
 .text1 {
@@ -58,7 +57,8 @@ a:link {
     flex-direction: column;
     font-size: 18px;
     flex: 1;
-    max-width: 800px;
+    max-width: 600px;
+    font-weight: 100;
 }
 
 button {
@@ -73,6 +73,7 @@ button {
     border-radius: 10px;
     font-size: 18px;
     margin: 8px;
+    font-weight: 400;
 }
 
 img {
@@ -82,13 +83,14 @@ img {
 
 .words{
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
+
 }
+
 .words,
 .image {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex: 1;
     margin: 0;
