@@ -39,7 +39,7 @@ a:link {
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 74px;
+    padding: 84px;
     margin: 0px;
 }
 
@@ -96,3 +96,40 @@ img {
     margin: 0;
     max-width: 600px;
 }
+
+.info {
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: extra-bold;
+    justify-content: center;
+    margin: 48px;
+}
+
+ul {
+    display: flex;
+}
+
+.white {
+    display: flex;
+    flex-direction: row;
+}
+
+.illustration {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+  }
+
+  .desc {
+    text-align: justify;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .square {
+    max-width: 200px;
+    padding: 10px;
+  }
