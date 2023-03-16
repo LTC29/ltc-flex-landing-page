@@ -7,19 +7,21 @@
     background-color: #1f2937;
     color: white;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-around;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
     display: flex;
+
 }
 
 .links {
     display: flex;
     gap: 32px;
+
 }
 
 li {
@@ -35,29 +37,60 @@ a:link {
 
 .dark {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
     padding: 52px;
-
-}
-
-.awesome {
-    font-size: 48px;
-    font-weight: extra-bold;
+    margin: 0px;
 }
 
 .text0 {
-    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    font-size: 42px;
+    font-weight: extra-bold;
+    max-width: 800px;
 }
-.text1 {
-    font-size: 18px;
 
+.text1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    flex: 1;
+    max-width: 800px;
 }
 
 button {
-    height: auto;
-    width: 80px;
+    all: unset;
+    height: 45px;
+    width: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 8px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+.words{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.words,
+.image {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    margin: 0;
+    max-width: 600px;
 }
