@@ -20,11 +20,12 @@
 .links {
     display: flex;
     gap: 32px;
+    padding: 0px;
+    justify-content: flex-start;
 }
 
 li {
     list-style: none;
-    
 }
 
 a:link {
@@ -84,7 +85,6 @@ img {
 .words{
     display: flex;
     flex-direction: column;
-
 }
 
 .words,
